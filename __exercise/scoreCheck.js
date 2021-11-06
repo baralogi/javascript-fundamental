@@ -1,4 +1,4 @@
-let score = 60;
+let score = 20;
 let result;
 
 if (score >= 90) {

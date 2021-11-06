@@ -1,4 +1,4 @@
-let rows = 5
+let rows = 3
 let column = 4
 let pattern = ''
 

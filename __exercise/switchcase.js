@@ -1,4 +1,4 @@
-let language = "Japanese";
+let language = "xyxyx";
 let greeting = "";
 
 switch (language) {
