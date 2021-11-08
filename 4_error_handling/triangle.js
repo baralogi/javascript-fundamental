@@ -79,7 +79,7 @@ const detectTriangle = (a, b, c) => {
         return 'Segitiga sembarang';
 
     } catch (error) {
-       return error.message
+        return error.message
     }
 
 };
