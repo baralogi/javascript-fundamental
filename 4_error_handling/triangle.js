@@ -84,7 +84,7 @@ const detectTriangle = (a, b, c) => {
 
 };
 
-detectTriangle(1, 1, 1);
-detectTriangle(1, false, 1);
-detectTriangle('a', 3, 5);
-detectTriangle(12, 2, null);
+console.log(detectTriangle(1, 1, 1)); // segitiga sama sisi
+console.log(detectTriangle(1, false, 1)); // Argumen kedua harus number
+console.log(detectTriangle('a', 3, 5)); // Argumen pertama harus number
+console.log(detectTriangle(12, 2, null)); // Argumen ketiga harus number
