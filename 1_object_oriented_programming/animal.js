@@ -61,3 +61,4 @@ let myRabbit = new Rabbit("Labi", 2)
 let myEagle = new Eagle("Elo", 4)
 
 console.log(myRabbit, myEagle)
+console.log(myRabbit.eat());
