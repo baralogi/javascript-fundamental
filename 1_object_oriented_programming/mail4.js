@@ -6,7 +6,6 @@ class Mail {
   sendMessage(msg, to) {
     this._contacts.push(to);
     return `you send: ${msg} to ${to} from ${this.from}`;
-    
   }
   showAllContacts() {
     return this._contacts;
@@ -24,6 +23,9 @@ class WhatsApp extends Mail {
       this.isBussinessAccount ? "Business" : "Personal"
     }`;
   }
+  // sendMessage(msg, to) {
+  //   return super.sendMessage(msg, to);
+  // }
 }
 
 const wa1 = new WhatsApp(6280111000222);
