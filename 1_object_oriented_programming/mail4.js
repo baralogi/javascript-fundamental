@@ -4,8 +4,9 @@ class Mail {
     this._contacts = [];
   }
   sendMessage(msg, to) {
-    return `you send: ${msg} to ${to} from ${this.from}`;
     this._contacts.push(to);
+    return `you send: ${msg} to ${to} from ${this.from}`;
+    
   }
   showAllContacts() {
     return this._contacts;
@@ -27,4 +28,5 @@ class WhatsApp extends Mail {
 
 const wa1 = new WhatsApp(6280111000222);
 console.log(wa1.myProfile());
-console.log(wa1.sendMessage("xx", "089616645409"));
+console.log(wa1.sendMessage("xx", "089616645410"));
+console.log(wa1.showAllContacts());
